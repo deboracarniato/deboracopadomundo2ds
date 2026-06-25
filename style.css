@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FFFFFF;
+  color: #00364F;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #00364F;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+header .brand {
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0 1rem 0.75rem;
+  overflow-x: auto;
+}
+.navbar a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0.55rem 0.9rem;
+  border-radius: 0.5rem;
+  background: rgba(0, 121, 171, 0.18);
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.navbar a:hover,
+.navbar a:focus {
+  background: #0079AB;
+  transform: translateY(-1px);
+}
+main {
+  padding: 1.5rem 1rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  color: #0079AB;
+}
+p,
+ul {
+  line-height: 1.7;
+}
+ul {
+  padding-left: 1.3rem;
+}
+section.hero {
+  background: #E8F4F9;
+  border: 1px solid #A1CF0C;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+section.hero h1 {
+  margin-top: 0;
+}
+.footer {
+  padding: 1rem;
+  text-align: center;
+  color: #00364F;
+  background: #F5F8FA;
+  border-top: 1px solid #DDE5E9;
+}
+@media (max-width: 700px) {
+  .navbar {
+    justify-content: flex-start;
+  }
+}
