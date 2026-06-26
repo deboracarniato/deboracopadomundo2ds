@@ -103,21 +103,46 @@ main > p {
 }
 .flag-card {
   text-align: center;
-  width: min(180px, 100%);
-  flex: 1 1 180px;
+  width: min(140px, 100%);
+  flex: 1 1 140px;
 }
 .flag-image {
   display: block;
-  width: 100%;
-  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 85px;
   object-fit: cover;
   border-radius: 0.75rem;
   box-shadow: 0 8px 20px rgba(0, 54, 79, 0.1);
 }
+
 .flag-label {
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
   font-weight: 700;
   color: #00364F;
+}
+
+.homepage-flags {
+  gap: 1.25rem;
+}
+
+.homepage-flag-card {
+  width: 120px;
+  flex: 0 1 120px;
+}
+
+.homepage-flag-card .flag-image {
+  width: 90px;
+  height: auto;
+  object-fit: contain;
+}
+.summary-list {
+  margin: 0 0 1rem;
+  padding-left: 1.3rem;
+}
+.summary-list li {
+  margin-bottom: 0.35rem;
 }
 
 .footer {
