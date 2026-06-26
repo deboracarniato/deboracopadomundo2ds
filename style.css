@@ -83,6 +83,18 @@ main > p {
   font-size: 1rem;
   max-width: 920px;
 }
+
+.homepage-centered {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepage-centered p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .copa-image {
   display: block;
   margin-left: auto;
