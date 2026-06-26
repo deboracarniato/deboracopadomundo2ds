@@ -85,11 +85,36 @@ main > p {
 }
 .copa-image {
   display: block;
-  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   max-width: 720px;
   margin: 1.5rem auto;
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgba(0, 54, 79, 0.12);
+}
+.flag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.flag-card {
+  text-align: center;
+  width: 180px;
+}
+.flag-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 20px rgba(0, 54, 79, 0.1);
+}
+.flag-label {
+  margin-top: 0.75rem;
+  font-weight: 700;
+  color: #00364F;
 }
 
 .footer {
