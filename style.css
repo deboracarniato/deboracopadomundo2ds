@@ -3,6 +3,8 @@
   Ele define a paleta de cores, o layout do header, da navegação, dos cards e do rodapé.
 */
 
+/* Define a paleta de cores usada em todo o site. */
+/* Define a paleta de cores do site. */
 :root {
   --azul-escuro: #00364F;
   --azul-claro: #0079AB;
@@ -10,12 +12,15 @@
   --verde: #A1CF0C;
 }
 
+/* Define o estilo base do corpo da página. */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: var(--branco);
   color: var(--azul-escuro);
 }
+/* Estiliza o cabeçalho fixo com fundo escuro e sombra. */
+/* Estiliza o cabeçalho com fundo azul escuro. */
 header {
   position: sticky;
   top: 0;
@@ -23,6 +28,7 @@ header {
   background: var(--azul-escuro);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
+/* Estiliza o nome do site no cabeçalho. */
 header .brand {
   color: var(--branco);
   font-size: 1.35rem;
@@ -31,6 +37,8 @@ header .brand {
   letter-spacing: 0.03em;
   transition: color 0.8s ease;
 }
+/* Organiza os links de navegação em linha e responsiva. */
+/* Organiza a navegação em linha e responsiva. */
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -38,6 +46,7 @@ header .brand {
   padding: 0 1rem 0.75rem;
   overflow-x: auto;
 }
+/* Define o visual dos links do menu. */
 .navbar a {
   color: var(--branco);
   text-decoration: none;
@@ -52,11 +61,13 @@ header .brand {
   background: var(--azul-claro);
   transform: translateY(-1px);
 }
+/* Centraliza o conteúdo principal da página. */
 main {
   padding: 1.5rem 1rem 2rem;
   max-width: 1100px;
   margin: 0 auto;
 }
+/* Define a cor dos títulos principais. */
 h1,
 h2 {
   color: var(--azul-claro);
@@ -68,6 +79,7 @@ ul {
 ul {
   padding-left: 1.3rem;
 }
+/* Cria o destaque principal da página inicial. */
 section.hero {
   background: var(--branco);
   border: 2px solid var(--verde);
@@ -160,6 +172,7 @@ main > p {
 .navbar a.is-active {
   animation: navPulse 0.8s ease;
 }
+/* Posiciona os cards de bandeiras em grade responsiva. */
 .flag-grid {
   display: flex;
   flex-wrap: wrap;
@@ -168,6 +181,7 @@ main > p {
   gap: 1rem;
   margin: 1.25rem 0 1.5rem;
 }
+/* Estiliza cada card de informação. */
 .flag-card {
   text-align: center;
   width: min(140px, 100%);
@@ -209,6 +223,7 @@ main > p {
   height: auto;
   object-fit: contain;
 }
+/* Formata a lista de resumo com destaque visual. */
 .summary-list {
   margin: 0 0 1rem;
   padding: 0.9rem 1.1rem 0.9rem 1.6rem;
@@ -220,6 +235,7 @@ main > p {
   margin-bottom: 0.35rem;
 }
 
+/* Organiza o conteúdo em uma caixa destacada. */
 .copa-content {
   background: var(--branco);
   border: 1px solid var(--verde);
@@ -228,6 +244,7 @@ main > p {
   box-shadow: 0 4px 12px rgba(0, 54, 79, 0.05);
 }
 
+/* Define o rodapé com fundo escuro e texto claro. */
 .footer {
   padding: 1rem;
   text-align: center;
@@ -236,6 +253,7 @@ main > p {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
+/* Controla a animação de entrada dos elementos. */
 body.js-ready .fade-up {
   opacity: 0;
   transform: translateY(26px) scale(0.98);

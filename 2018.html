@@ -4,14 +4,20 @@
   O conteúdo é organizado em cabeçalho, navegação, seção principal e rodapé para facilitar a leitura e a navegação.
 -->
 <html lang="pt-br">
+<!--
+  Esta seção define a estrutura básica da página, com cabeçalho, conteúdo principal e rodapé.
+-->
+<!-- Define os metadados e links da página. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copa do Mundo 2018</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<!-- Inicia o corpo da página e o conteúdo visível. -->
 <body>
-    <header>
+    <!-- Cria o cabeçalho com o nome do site e a navegação principal. -->
+<header>
         <div class="brand">Copa do Mundo</div>
         <nav class="navbar">
             <a href="index.html">Início</a>
@@ -39,8 +45,10 @@
             <a href="2022.html">2022</a>
         </nav>
     </header>
-    <main>
+    <!-- Agrupa o conteúdo principal da página. -->
+<main>
         <h1 class="page-title fade-up">Copa do Mundo 2018</h1>
+        <!-- Exibe os cards de informações principais da copa. -->
         <div class="flag-grid">
             <div class="flag-card">
                 <img class="flag-image" src="img/bandeira_russia.png" alt="Bandeira da Rússia" title="Bandeira da Rússia">
@@ -55,11 +63,13 @@
                 <div class="flag-label">Vice-campeão</div>
             </div>
         </div>
+        <!-- Resumo rápido com sede, campeão e vice-campeão. -->
         <ul class="summary-list">
             <li><strong>Sede:</strong> Rússia</li>
             <li><strong>Campeão:</strong> França</li>
             <li><strong>Vice-campeão:</strong> Croácia</li>
         </ul>
+        <!-- Organiza os tópicos de contexto, destaques e artilharia. -->
         <section class="copa-content">
             <h2>Contexto</h2>
             <ul>
@@ -79,9 +89,11 @@
             </ul>
 </section>
     </main>
+    <!-- Fecha a página com o rodapé informativo. -->
     <footer class="footer">
         <p>Obrigado por visitar o site da Copa do Mundo. Esse site foi realizado para uma atividade escolar pela estudante Debora Carniato Cyriaco, do 2° ano de Desenvolvimento de Sistemas do Colégio Estadual Barbosa Ferraz.</p>
     </footer>
+    <!-- Carrega o script com as animações e interações. -->
     <script src="copa.js"></script>
 </body>
 </html>
