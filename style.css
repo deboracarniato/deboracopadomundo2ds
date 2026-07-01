@@ -1,3 +1,8 @@
+/*
+  Este arquivo centraliza os estilos visuais do site.
+  Ele define a paleta de cores, o layout do header, da navegação, dos cards e do rodapé.
+*/
+
 :root {
   --azul-escuro: #00364F;
   --azul-claro: #0079AB;

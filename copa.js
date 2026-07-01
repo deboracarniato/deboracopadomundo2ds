@@ -1,3 +1,8 @@
+//
+// Este arquivo adiciona interatividade ao site.
+// Ele anima os elementos da página, marca o link ativo na navegação e altera a cor da marca.
+//
+
 document.addEventListener('DOMContentLoaded', () => {
   document.body.classList.add('js-ready');
 
