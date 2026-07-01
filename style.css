@@ -226,9 +226,9 @@ main > p {
 .footer {
   padding: 1rem;
   text-align: center;
-  color: var(--azul-escuro);
-  background: rgba(0, 54, 79, 0.04);
-  border-top: 1px solid rgba(0, 54, 79, 0.12);
+  color: var(--branco);
+  background: var(--azul-escuro);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 body.js-ready .fade-up {
